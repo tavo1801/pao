@@ -1,0 +1,181 @@
+body {
+    min-height: 100vh ;
+    background-image: url(/imagenes/fondo\ mariposas.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.fotito {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.fotito img {
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8%;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+}
+
+.fotito img:hover{
+    width: 90%;
+}
+
+.image-contenedor {
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-contenedor img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(219, 0, 0);
+    transition: all ease-in-out 0.5s;
+}
+
+.image-contenedor img:hover{
+    width: 25%;
+}
+
+.image-contenedor-2 {
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    margin-top: 5px;
+}
+
+.image-contenedor-2 img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(219, 0, 0);
+    transition: all ease-in-out 0.5s;
+}
+
+.image-contenedor-2 img:hover{
+    width: 25%;
+}
+
+.contenedor{ 
+    display: flex; 
+    flex-wrap:wrap; 
+    justify-content: space-around;
+    padding: 10px 10px 10px 10px ;
+    
+  } 
+ 
+  .fotito {
+    max-width: 500px;
+    min-width: 320px ;
+    margin: auto;
+   }
+   
+   #foto {
+       width: 100%;
+       border-radius: 5px;
+       box-shadow: 0px 3px 5px rgba(15, 15, 15, 5);
+   }
+  
+  
+.titulo{
+      text-align: center;
+      border-radius: 10px;
+      border-radius: 10px 10px 10px 10px;
+      color: rgb(230, 0, 0);  
+      text-shadow: 
+      #99007f 0 0 12px,
+      #a80000 0 0 25px,
+      #a80000 0 0 35px,
+      #a80000 0 0 45px;  
+      padding: 5px;
+  }
+
+  .contenido {
+    display: flex ;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px;
+    }
+    
+    .analisis {
+    margin: 2px;
+    flex: auto;
+    width: 40%;
+    justify-content: center ;
+    justify-items: center;
+    justify-self: center;
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    border-radius:15px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    place-content: center;
+    }    
+    
+
+    
+    
+    p {
+    
+        text-align: justify;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        border-radius: 10px;
+        border-radius: 10px 10px 10px 10px;
+        color: rgb(230, 0, 0);  
+        text-shadow: 
+        #99007f 0 0 12px,
+        #a80000 0 0 25px,
+        #a80000 0 0 35px,
+        #a80000 0 0 45px;  
+        padding: 5px;
+    }
+    
+    h2{
+        background-color: #f2f2f2;
+       
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    h3 {
+            border-radius: 10px 10px 10px 10px;
+        color: aliceblue;  
+        text-shadow: 
+        #FFFFFF 0 0 12px,
+        #1100a8 0 0 25px,
+        #1100a8 0 0 35px,
+        #1100a8 0 0 45px;  
+        padding: 5px;
+        text-align:center ;
+    }
+    
+    .fotito {
+     width: 70%;
+     max-width: 1000px;
+     min-width: 320px ;
+     margin: auto;
+    
+    }
+
+    
+    #foto {
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, 5);
+    }
